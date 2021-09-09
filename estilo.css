@@ -77,6 +77,37 @@ ul li {
 /* Estilização Do Conteúdo   */
 
 
+.conteudo {
+
+    margin-top: 65px;
+
+
+
+} 
+
+
+.primario {
+    float: left;
+    width: 270px;
+    background: lightcoral;
+    margin: 0 0 20px 195px;
+}
+
+.secundario {
+    float: left;
+    width: 270px;
+    background: lightseagreen;
+    margin-left: 15px;
+
+}
+
+.lateral {
+    float: left;
+    width: 180px;
+    background: mediumorchid;
+    margin: 0 -750px 20px;
+}
+
 
 
 
