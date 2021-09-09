@@ -13,22 +13,76 @@ body {
 
 .container {
     width: 750px;
-    border: 1px solid gray;
+    
     margin: auto;
 }
 
 #topo {
     height: 150px;
     padding-top: 20px;
-    background: url(imagens/detalhe-topo.png) repeat-y right center;
+    background: url(imagens/detalhe-topo.png) repeat-y top right ;
     
+}
+
+ul li {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.navegacao li {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.navegacao li a {
+    float: left;
+    text-decoration: none;
+    padding: 10px 21px;
     
     
 }
 
-.logo {
-    margin-top: 30px;
+.navegacao li a {
+    color: white;
+    
+    display: block;
+    font-size: 0.9em;
+    background: #b10333 url(imagens/divisor.png)  repeat-y left top;
 }
+
+#home {
+    background: #b10333; 
+}
+
+.navegacao li a:hover {
+    color: #69001d;
+}
+
+.home .navegacao a#home,
+.brasil .navegacao a#brasil,
+.int .navegacao a#int, 
+.eco .navegacao a#eco,
+.saude .navegacao a#saude,
+.ciencia .navegacao a#ciencia,
+.fotos .navegacao a#fotos{
+    background: 
+    #de003e;
+}                               /* fim do topo */
+                                /* fim do topo */
+
+
+
+
+/* Estilização Do Conteúdo   */
+
+
+
+
+
+
+
+
 
 
 
