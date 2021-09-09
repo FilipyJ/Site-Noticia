@@ -173,6 +173,9 @@ label {
     background: #b10333;
     margin-left: 20px;
     width: 120px;
+    font-size: 1.1em;
+    padding: 2px;
+    font-weight: bold;
 }
 
 h3 {
@@ -182,6 +185,16 @@ h3 {
     font-weight: bolder;
     display: inline;
     font-size: 0.9em;
+}
+
+.secundario h3 {
+    background: #b10333;
+    color: rgb(39, 39, 39);
+    text-transform: uppercase;
+    font-weight: 900;
+    display: inline;
+    font-size: 0.8;
+    padding: 1px;
 }
 
 
