@@ -1,6 +1,9 @@
 * {
+
     margin: 0px;
     padding: 0px;
+    
+    
 
 }
 
@@ -27,11 +30,12 @@ body {
 ul li {
     margin: 0px;
     padding: 0px;
+    list-style: none;
     
 }
 
 .navegacao li {
-    list-style: none;
+    
     margin-top: 40px;
 }
 
@@ -78,8 +82,10 @@ ul li {
 
 
 .conteudo {
-
+    
     margin-top: 65px;
+
+    
 
 
 
@@ -104,9 +110,75 @@ ul li {
 .lateral {
     float: left;
     width: 180px;
-    background: mediumorchid;
     margin: 0 -750px 20px;
 }
+
+
+
+
+h2 {
+
+    font-size: 1em;
+    background-color:#294c71;
+    color: #fff;
+    padding: 5px;
+    
+
+    
+}
+
+.caixa {
+    background: url(imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+
+
+.caixa-conteudo {
+
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+.lateral ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 2em;
+    display: block;
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.lateral ul li a:hover {
+    
+    color: #a1a1a1;
+    
+    padding-left: 20px;
+    background: url(imagens/marcador.png) no-repeat left center;
+}
+
+label {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#email {
+    margin: 10px 0;
+    
+}
+
+#botao {
+    
+    border: 2px solid #870529;
+    background: #b10333;
+    margin-left: 20px;
+    width: 120px;
+}
+
+
+
 
 
 
