@@ -95,7 +95,6 @@ ul li {
 .primario {
     float: left;
     width: 270px;
-    background: lightcoral;
     margin: 0 0 20px 195px;
 }
 
@@ -176,6 +175,28 @@ label {
     margin-left: 20px;
     width: 120px;
 }
+
+.primario h3 {
+    background: #b10333;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: inline;
+    font-size: 0.8em;
+}
+
+.primario .caixa-conteudo {
+    padding: 0px;  
+}
+
+.caixa-conteudo img {
+    width: 250px;
+    padding: 5px 5px 2px 5px;
+    
+}
+
+
+
 
 
 
