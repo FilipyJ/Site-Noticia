@@ -101,7 +101,6 @@ ul li {
 .secundario {
     float: left;
     width: 270px;
-    background: lightseagreen;
     margin-left: 15px;
 
 }
@@ -176,23 +175,29 @@ label {
     width: 120px;
 }
 
-.primario h3 {
+h3 {
     background: #b10333;
     color: whitesmoke;
     text-transform: uppercase;
     font-weight: bolder;
     display: inline;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
-.primario .caixa-conteudo {
-    padding: 0px;  
-}
 
-.caixa-conteudo img {
-    width: 250px;
-    padding: 5px 5px 2px 5px;
+.primario img {
+    border: 3px solid rgb(202, 202, 202);
+    width: 100%;
     
+
+    
+    
+}
+
+.secundario img {
+    border: 3px solid rgb(202, 202, 202);
+    width: 100%;
+
 }
 
 
